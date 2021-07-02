@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NeulBoDam">
+        <activity android:name=".GetWeightActivity"></activity>
+        <activity android:name=".GetHeightActivity" />
+        <activity android:name=".GetAgeActivity" />
+        <activity android:name=".GetNameActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
